@@ -11,6 +11,8 @@
 	import MostPopular from "./Components/MostPopular.svelte";
 	import Discount2 from "./Components/Discount2.svelte";
 	import Visits from "./Components/Visits.svelte";
+	import Plusbar from "./Components/Plusbar.svelte";
+	
 </script>
 
 <main>
@@ -26,6 +28,7 @@
 	<MostPopular />
 	<Discount2 />
 	<Visits />
+	<Plusbar />
 </main>
 
 <style>
