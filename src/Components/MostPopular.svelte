@@ -1,60 +1,60 @@
 <script>
 
 </script>
-<main>
-    <div class="box">
-        <div class="text">
-            <h2>محبوب‌ترین برندها</h2>
-            <img src="./pics/star.png" alt="">
+<div class="box">
+    <div class="text">
+        <h2>محبوب‌ترین برندها</h2>
+        <img src="./pics/star.png" alt="">
 
-        </div>
-        <div class="items">
-            <div class="item">
-                <img src="./pics/ppBijan.png" alt="">
-            </div>
-            <div class="item">
-                <img class="mi" src="./pics/ppMi.png" alt="">
-            </div>
-            <div class="item">
-                <img class="sp" src="./pics/ppSP.png" alt="">
-            </div>
-            <div class="item">
-                <img src="./pics/ppTsco.png" alt="">
-            </div>
-            <div class="item">
-                <img src="./pics/ppKale.png" alt="">
-            </div>
-            <div class="item">
-                <img src="./pics/ppKingStar.png" alt="">
-            </div>
-            <div class="item">
-                <img src="./pics/ppPercil.png" alt="">
-            </div>
-            <div class="item">
-                <img src="./pics/ppPril.png" alt="">
-            </div>
-
-        </div>
     </div>
-</main>
+    <div class="items">
+        <div class="item">
+            <img src="./pics/ppBijan.png" alt="">
+        </div>
+        <div class="item">
+            <img class="mi" src="./pics/ppMi.png" alt="">
+        </div>
+        <div class="item">
+            <img class="sp" src="./pics/ppSP.png" alt="">
+        </div>
+        <div class="item">
+            <img src="./pics/ppTsco.png" alt="">
+        </div>
+        <div class="item">
+            <img src="./pics/ppKale.png" alt="">
+        </div>
+        <div class="item">
+            <img src="./pics/ppKingStar.png" alt="">
+        </div>
+        <div class="item">
+            <img src="./pics/ppPercil.png" alt="">
+        </div>
+        <div class="item">
+            <img src="./pics/ppPril.png" alt="">
+        </div>
+
+    </div>
+</div>
 <style>
     @font-face {
     font-family: myFirstFont;
     src:url('/Yekan.ttf');
     }
     .box{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-top: 25px;
+        /* margin-top: 25px; */
         border-radius: 15px;
         border: 1px solid rgba(0, 0, 0, 0.358);
         background: rgba(211, 211, 211, 0.106);
-        width: 1200px;
-        height: 200px;
-        position: relative;
-        left: 200px;
+        margin: 1% 10%;
+        /* width:80%; */
+        /* height: 200px; */
+        /* position: relative;
+        left: 200px; */
     }
     .text{
         display: flex;

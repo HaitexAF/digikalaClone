@@ -1,60 +1,64 @@
 <script>
 
 </script>
-<main>
-    <div class="grouping">
-        <div>
-            <h1>‌دسته‌بندی‌های دیجی‌کالا</h1>
-        </div>
-        <div class="items">
-            <div>
-                <img src="./pics/gpToys.png" alt="">
-                <h3>اسباب‌بازی, کودک و نوزاد</h3>
-            </div>
-            <div>
-                <img src="./pics/gpSuperMarket.png" alt="">
-                <h3>کالاهای سوپرمارکتی</h3>
-            </div>
-            <div>
-                <img src="./pics/gpDress.png" alt="">
-                <h3>مد و پوشاک</h3>
-            </div>
-            <div>
-                <img src="./pics/gpTool.png" alt="">
-                <h3>ابزار و تجهیزات صنعتی</h3>
-            </div>
-            <div>
-                <img src="./pics/gpDigital.png" alt="">
-                <h3>کالاهای دیجیتال</h3>
-            </div>
-            <div>
-                <img src="./pics/gpBooks.png" alt="">
-                <h3>کتاب, لوازم‌تحریر و هنر</h3>
-            </div>
-            <div>
-                <img src="./pics/gpKitchen.png" alt="">
-                <h3>خانه و آشپزخانه</h3>
-            </div>
-            <div>
-                <img src="./pics/gpBeauty.png" alt="">
-                <h3>زیبایی و سلامت</h3>
-            </div>
-            <div>
-                <img src="./pics/gpHandicrafts.png" alt="">
-                <h3>محصولات بومی و محلی</h3>
-            </div>
-            <div>
-                <img src="./pics/gpMotor.jpg" alt="">
-                <h3>وسایل نقلیه و لوازم یدکی</h3>
-            </div>
-        </div>
 
+<div class="grouping">
+    <div>
+        <h1>‌دسته‌بندی‌های دیجی‌کالا</h1>
     </div>
-</main>
+    <div class="items">
+        <div>
+            <img src="./pics/gpToys.png" alt="">
+            <h3>اسباب‌بازی, کودک و نوزاد</h3>
+        </div>
+        <div>
+            <img src="./pics/gpSuperMarket.png" alt="">
+            <h3>کالاهای سوپرمارکتی</h3>
+        </div>
+        <div>
+            <img src="./pics/gpDress.png" alt="">
+            <h3>مد و پوشاک</h3>
+        </div>
+        <div>
+            <img src="./pics/gpTool.png" alt="">
+            <h3>ابزار و تجهیزات صنعتی</h3>
+        </div>
+        <div>
+            <img src="./pics/gpDigital.png" alt="">
+            <h3>کالاهای دیجیتال</h3>
+        </div>
+        <div>
+            <img src="./pics/gpBooks.png" alt="">
+            <h3>کتاب, لوازم‌تحریر و هنر</h3>
+        </div>
+        <div>
+            <img src="./pics/gpKitchen.png" alt="">
+            <h3>خانه و آشپزخانه</h3>
+        </div>
+        <div>
+            <img src="./pics/gpBeauty.png" alt="">
+            <h3>زیبایی و سلامت</h3>
+        </div>
+        <div>
+            <img src="./pics/gpHandicrafts.png" alt="">
+            <h3>محصولات بومی و محلی</h3>
+        </div>
+        <div>
+            <img src="./pics/gpMotor.jpg" alt="">
+            <h3>وسایل نقلیه و لوازم یدکی</h3>
+        </div>
+    </div>
+
+</div>
 <style>
     @font-face {
     font-family: myFirstFont;
     src:url('/Yekan.ttf');
+    }
+    
+    @font-face {
+    font-family: myScondFont;
+    src:url('/Far.Roya.ttf');
     }
     .grouping{
         display: grid;
@@ -62,19 +66,23 @@
         text-align: center;
         align-items: center;
         margin-top: 20px;
+        font-family: myFirstFont;
+
     }
     .items{
         display: grid;
         margin-top: 15px;
-        grid-template-columns: repeat(5, 300px);
+        grid-template-columns: repeat(5, 250px);
         grid-template-rows: repeat(2 , 14vw);
         cursor: pointer;
     }
     img{
-        width: 50%;
+        width: 60%;
     }
     h3{
-        font-family: myFirstFont;
+        font-family: myScondFont;
+        font-weight: lighter;
+        font-size: 16px;
 
 
     }

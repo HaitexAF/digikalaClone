@@ -1,13 +1,13 @@
 <script>
 
 </script>
-<main>
-    <img src="./pics/img1.jpg" alt="">
-</main>
+<img src="./pics/img1.jpg" alt="">
+
 <style>
+
     img{
         height: 400px;
-        width: 100vw;
+        width: 100%;
         margin-top: 15px;
         cursor: pointer;
     }

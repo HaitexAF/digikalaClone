@@ -1,107 +1,110 @@
 <script>
 
 </script>
-<main>
-    <div class="box">
-        <div class="part">
-            <div class="text">
-                <h4>
-                    ساعت هوشمند
-                </h4>
-                <p>
-                    بر اساس بازدیدهای شما
-                </p>
-            </div>
-            <div class="imgs">
-                <img src="./pics/vSwatch1.jpg" alt="">
-                <img src="./pics/vSwatch2.jpg" alt="">
-                <img src="./pics/vSwatch3.jpg" alt="">
-                <img src="./pics/vSwatch4.jpg" alt="">
-            </div>
-            <div class="more">
-                <p >
-                    مشاهده
-                </p>
-            </div>
-
-
-
+<div class="box">
+    <div class="part">
+        <div class="text">
+            <h4>
+                ساعت هوشمند
+            </h4>
+            <p>
+                بر اساس بازدیدهای شما
+            </p>
         </div>
-        <div class="part">
-            <div class="text">
-                <h4>
-                    هدفون، هدست و هندزفری
-    
-                </h4>
-                <p>
-                    بر اساس بازدیدهای شما
-                </p>
-            </div>
-            <div class="imgs">
-                <img src="./pics/vHeadphone1.jpg" alt="">
-                <img src="./pics/vHeadphone2.jpg" alt="">
-                <img src="./pics/vHeadphone3.jpg" alt="">
-                <img src="./pics/vHeadphone4.jpg" alt="">
-            </div>
-            <div class="more">
-                <p >
-                    مشاهده
-                </p>
-            </div>
-
-
-
+        <div class="imgs">
+            <img src="./pics/vSwatch1.jpg" alt="">
+            <img src="./pics/vSwatch2.jpg" alt="">
+            <img src="./pics/vSwatch3.jpg" alt="">
+            <img src="./pics/vSwatch4.jpg" alt="">
         </div>
-        <div class="part">
-            <div class="text">
-                <h4>
-                    کیف و کاور گوشی
-                </h4>
-                <p>
-                    بر اساس بازدیدهای شما
-                </p>
-            </div>
-            <div class="imgs">
-                <img src="./pics/vCover1.jpg" alt="">
-                <img src="./pics/vCover2.jpg" alt="">
-                <img src="./pics/vCover3.jpg" alt="">
-                <img src="./pics/vCover4.jpg" alt="">
-            </div>
-            <div class="more">
-                <p>
-                    مشاهده
-                </p>
-            </div>
-
-
-
+        <div class="more">
+            <img src="./pics/moreThanBlue.png" alt="">
+            <p >
+                مشاهده
+            </p>
         </div>
-        <div class="part">
-            <div class="text">
-                <h4>
-                    گوشی موبایل
-                </h4>
-                <p>
-                    بر اساس بازدیدهای شما
-                </p>
-            </div>
-            <div class="imgs">
-                <img src="./pics/vPhone1.jpg" alt="">
-                <img src="./pics/vPhone2.jpg" alt="">
-                <img src="./pics/vPhone4.jpg" alt="">
-                <img src="./pics/vPhone3.jpg" alt="">
-            </div>
-            <div class="more">
-                <p>
-                    مشاهده
-                </p>
-            </div>
 
 
 
-        </div>
     </div>
-</main>
+    <div class="part">
+        <div class="text">
+            <h4>
+                هدفون، هدست و هندزفری
+
+            </h4>
+            <p>
+                بر اساس بازدیدهای شما
+            </p>
+        </div>
+        <div class="imgs">
+            <img src="./pics/vHeadphone1.jpg" alt="">
+            <img src="./pics/vHeadphone2.jpg" alt="">
+            <img src="./pics/vHeadphone3.jpg" alt="">
+            <img src="./pics/vHeadphone4.jpg" alt="">
+        </div>
+        <div class="more">
+            <img src="./pics/moreThanBlue.png" alt="">
+            <p >
+                مشاهده
+            </p>
+        </div>
+
+
+
+    </div>
+    <div class="part">
+        <div class="text">
+            <h4>
+                کیف و کاور گوشی
+            </h4>
+            <p>
+                بر اساس بازدیدهای شما
+            </p>
+        </div>
+        <div class="imgs">
+            <img src="./pics/vCover1.jpg" alt="">
+            <img src="./pics/vCover2.jpg" alt="">
+            <img src="./pics/vCover3.jpg" alt="">
+            <img src="./pics/vCover4.jpg" alt="">
+        </div>
+        <div class="more">
+            <img src="./pics/moreThanBlue.png" alt="">
+            <p>
+                مشاهده
+            </p>
+        </div>
+
+
+
+    </div>
+    <div class="part">
+        <div class="text">
+            <h4>
+                گوشی موبایل
+            </h4>
+            <p>
+                بر اساس بازدیدهای شما
+            </p>
+        </div>
+        <div class="imgs">
+            <img src="./pics/vPhone1.jpg" alt="">
+            <img src="./pics/vPhone2.jpg" alt="">
+            <img src="./pics/vPhone4.jpg" alt="">
+            <img src="./pics/vPhone3.jpg" alt="">
+        </div>
+        <div class="more">
+            <img src="./pics/moreThanBlue.png" alt="">
+            <p>
+                مشاهده
+            </p>
+
+        </div>
+
+
+
+    </div>
+</div>
 <style>
     @font-face {
     font-family: myFirstFont;
@@ -173,11 +176,20 @@
         height: 125px;
     }
     .more{
+        display: flex;
+        flex-direction: row;
         text-align: center;
+        align-items: center;
+        justify-content: center;
         color: rgb(0, 144, 144);
         cursor: pointer;
         margin-bottom: 10px;
         font-family: myFirstFont;
 
+    }
+    .more img {
+        width: 5%;
+        height: 5%;
+        margin-right: 3px;
     }
 </style>
