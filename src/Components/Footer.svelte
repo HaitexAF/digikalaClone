@@ -83,10 +83,10 @@
                 خدمات مشتریان
             </h3>
             <h4>
-                پاسخ به پرسشهای متداول
+                پاسخ به پرسش‌های متداول
             </h4>
             <h4>
-                رویه های بازگرداندن کالا
+                رویه‌های بازگرداندن کالا
             </h4>
             <h4>
                 شرایط استفاده
@@ -109,7 +109,7 @@
                 رویه ارسال سفارش
             </h4>
             <h4>
-                شیوه های پرداخت
+                شیوه‌های پرداخت
             </h4>
         </div>
         <div class="withUs">
@@ -120,7 +120,7 @@
                 <img src="./pics/footerInstagram.png" alt="">
                 <img src="./pics/footerTwitter.png" alt="">
                 <img src="./pics/footerLinkedin.png" alt="">
-                <img src="./pics/footerAparat.png" alt="">
+                <img class="aparat" src="./pics/footerAparat.png" alt="">
 
             </div>
             <h3>
@@ -188,7 +188,9 @@
         text-align: center;
         margin-top: 40px;
         font-size: 14px;
+        cursor: pointer;
     }
+
     .menu{
         display: flex;
         flex-direction: row-reverse;
@@ -205,6 +207,7 @@
     .menu h4{
         opacity: 50%;
         font-size: 17px;
+        cursor: pointer;
     }
     .withUs button{
         width: 60px;
@@ -225,12 +228,13 @@
         gap: 35px;
         align-items: flex-end;
         margin-top: 15px;
+        cursor: pointer;
         /* width: 10px; */
         /* height: 10px; */
         /* width: 5%; */
     }
     .withUs .icons img:nth-child(4){
-        width: 35px;
+        width: 32px;
     }
     .withUs input{
         height: 45px;
