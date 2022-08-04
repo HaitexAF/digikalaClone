@@ -1,7 +1,7 @@
 <script>
 
 </script>
-<img src="./pics/img1.jpg" alt="">
+<img src="./pics/DigiGif.gif" alt="">
 
 <style>
 

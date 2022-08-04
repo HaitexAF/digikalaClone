@@ -12,6 +12,7 @@
 	import Discount2 from "./Components/Discount2.svelte";
 	import Visits from "./Components/Visits.svelte";
 	import Plusbar from "./Components/Plusbar.svelte";
+	import Footer from "./Components/Footer.svelte";
 	
 </script>
 
@@ -29,8 +30,9 @@
 	<Discount2 />
 	<Visits />
 	<Plusbar />
+	<Footer />
 </main>
 
 <style>
-	
+
 </style>

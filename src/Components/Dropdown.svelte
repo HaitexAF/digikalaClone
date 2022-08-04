@@ -53,9 +53,9 @@
 
     table{
         display: grid;
-        grid-template-columns: repeat(8 , 150px);
+        grid-template-columns: repeat(8 , 140px);
         justify-content: center;
-        margin-top: 1%;
+        margin: 1% 10%;
         /* justify-content: space-between;
         flex-flow: wrap; */
         /* flex-wrap: wrap; */

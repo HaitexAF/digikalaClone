@@ -14,31 +14,31 @@
     <div class="wares">
         <div class="ware">
             <img src="./pics/imgCable.jpg" alt="">
-            <h3>229,000 T</h3>
+            <h3>229,000 <span>تومان</span></h3>
         </div>
         <div class="ware">
             <img src="./pics/imgChair.jpg" alt="">
-            <h3>3,750,000 T</h3>
+            <h3>3,750,000 <span>تومان</span></h3>
         </div>
         <div class="ware">
             <img src="./pics/imgBag.jpg" alt="">
-            <h3>469,000 T </h3>
+            <h3>469,000 <span>تومان</span> </h3>
         </div>
         <div class="ware">
             <img src="./pics/imgWalet.jpg" alt="">
-            <h3>589,000 T</h3>
+            <h3>589,000 <span>تومان</span></h3>
         </div>
         <div class="ware">
             <img src="./pics/imgNothing.jpg" alt="">
-            <h3>2,730,000 T</h3>
+            <h3>2,730,000 <span>تومان</span></h3>
         </div>
         <div class="ware">
             <img src="./pics/imgShoe.jpg" alt="">
-            <h3>269,000 T</h3>
+            <h3>269,000 <span>تومان</span> </h3>
         </div>
         <!-- <div class="ware">
             <img src="imgShirt.jpg" alt="">
-            <h3>149,000 T</h3>
+            <h3>149,000 تومان</h3>
         </div> -->
     </div>
 </div>
@@ -46,6 +46,10 @@
     @font-face {
     font-family: myFirstFont;
     src:url('/Yekan.ttf');
+    }
+    @font-face {
+    font-family: mySFont;
+    src:url('/Font/BYekan.ttf');
     }
     .box{
         background: #ef394e;
@@ -146,11 +150,19 @@
         width: 90%;
     }
     .ware h3{
+        /* font-size: 25px; */
+        opacity: 80%;
         margin-top: 10px;
         display: flex;
+        flex-direction: row-reverse;
+        justify-content:flex-start;
+        gap: 10px;
         position: relative;
-        right: 30px;
-
+        right: 20px;
+        font-family: mySFont;
+    }
+    .ware span{
+        font-size: 12px;
     }
 
 
